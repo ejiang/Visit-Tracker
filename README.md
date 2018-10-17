@@ -1,4 +1,4 @@
-# visittracker
+# Visit Tracker
 Visit tracking Android app
 
 # YouTube
