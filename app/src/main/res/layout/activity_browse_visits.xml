@@ -6,11 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".browsevisits.BrowseVisits">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvVisits"
+    <FrameLayout
+        android:id="@+id/frameBrowseVisits"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/grey_10"
-        tools:listitem="@layout/card_visit" />
+        android:layout_height="match_parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

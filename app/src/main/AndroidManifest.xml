@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="io.github.ejiang.roomtests2">
+    package="io.github.ejiang.visittracker">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="io.github.ejiang.visittracker.MainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,16 +20,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".second.Second" />
         <activity
-            android:name=".search.Search"
+            android:name="io.github.ejiang.visittracker.search.Search"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".addvisit.AddVisitActivity"
+            android:name="io.github.ejiang.visittracker.addvisit.AddVisitActivity"
             android:theme="@style/AppTheme.MyNoActionBar" />
-        <activity android:name=".browserestaurants.BrowseRestaurants" />
-        <activity android:name=".browsevisits.BrowseVisits" />
-        <activity android:name=".editvisit.EditVisit"></activity>
+        <activity android:name="io.github.ejiang.visittracker.browsevisits.BrowseVisits" />
     </application>
 
 </manifest>

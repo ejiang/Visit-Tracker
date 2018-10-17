@@ -114,7 +114,7 @@
         android:layout_height="match_parent"
         android:layout_marginTop="120dp">
 
-        <io.github.ejiang.roomtests2.search.PullLayout
+        <io.github.ejiang.visittracker.search.PullLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/pullLayout"
@@ -128,7 +128,7 @@
             android:overScrollMode="never"
             android:background="@android:color/white"/>
 
-        </io.github.ejiang.roomtests2.search.PullLayout>
+        </io.github.ejiang.visittracker.search.PullLayout>
 
         <TextView
             android:layout_gravity="center"
